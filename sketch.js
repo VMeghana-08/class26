@@ -17,6 +17,7 @@ function setup() {
   box1=new Box(700,320,70,70);
   box2=new Box(920,320,70,70);
   ground=new Ground(width/2,height,width,40);
+  platform=new Ground(150,300,300,170);
   console.log(box2.body.angle)
   pig1=new Pig(810,350);
   log1=new Log(810,260,300,PI/2)
@@ -51,4 +52,5 @@ log3.display();
 box5.display();
 log4.display();
  bird.display();
+ platform.display();
 }
